@@ -1,0 +1,209 @@
+/* font của web */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
+html{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* reset csss */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+
+/* Đông cứng header */
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+/* Thông báo trên của trang web */
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: #79B4B7;
+    color: #fff;
+    line-height: 40px;
+}
+/* logo của web */
+.menu-logo{
+    height: 120px;
+    position: relative;
+    background: #7a4d4d;
+    background-color: rgba(5, 22, 22, 0.897);
+    
+}
+
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    
+}
+.menu-logo .logo img{
+    height: 100px;
+}
+
+/* css cho thanh menu */
+.main-menu{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+ul li{
+    float: left;
+}
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: rgb(206, 175, 176);
+    
+}
+ul li a:hover{
+    color: #79B4B7;
+    letter-spacing: 2px;
+}
+ul li ul{
+    padding: 0;
+    display: none;
+    background: #7a4d4d;
+    background-color: rgba(5, 22, 22, 0.897);
+}
+ul li:hover ul{
+    display: block;
+}
+ul li ul li{
+    float: none;
+}
+
+/* css tiện tịch nhỏ bên phải */
+.tienich{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    
+}
+.tinich:hover{
+    color: #79B4B7;
+    letter-spacing: 2px;
+}
+.tienich i{
+    font-size: 20px;
+    margin: 0 10px;
+    color: #FEFBF3;
+}
+.tienich i:hover{
+    color: #24A19C;
+    letter-spacing: 2px;
+}
+
+nav{
+    width: 100%;
+    margin-top: 160px;
+    background-color: #9D9D9D;
+    height: 30px;
+
+}
+.sapxep{
+    position: absolute;
+    right: 30px;
+    color: #000000;
+    font-variant: small-caps;
+}
+.sapxep select{
+    color: #000000;
+    font-variant: small-caps;
+}
+.item{
+    position: absolute;
+    left: 20px;
+    font-variant: small-caps;
+    color: #000000;
+}
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: #F8F0DF;
+}
+
+
+footer{
+    border-top: 5px double #24A19C;
+    width: 100%;
+    position: relative;
+    clear: both;
+}
+footer .footer-item{
+    float: left;
+    color: #24A19C;
+    margin: 20px 0;
+}
+footer .footer-item img{
+    margin-top: 40px;
+    height: 100px;
+}
+footer .footer-item a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    
+}
+footer .about h3{
+    margin: 20px;
+}
+footer .link h3{
+    margin: 10px;
+}
+footer .content h3{
+    margin: 10px;
+}
+footer .about{
+    width: 50%;
+}
+footer .link{
+    width: 40%;
+    float: right;
+}
+footer .content{
+    width: 40%;
+    float: right;
+}
+footer .footer-item a:hover{
+    color: #24A19C;
+    letter-spacing: 2px
+}
+
+
+.banner{
+    width: 100%;
+    margin-top: 160px;
+}
+.banner img{
+    width: 100%
+}
+
+.gioithieu{
+    line-height: 35px;
+    letter-spacing: 0.25px;
+
+}
+.thongtin{
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+    background-color: #ecdbdb;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
